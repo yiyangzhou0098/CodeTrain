@@ -40,11 +40,6 @@ public class Solution {
             carry = value / 10;
             value = value % 10;
 
-            // 错误用法
-            // if(carry == 1){
-            //     value = carry;
-            // }
-
             // 设置新链表的值并指向下一个节点
             newOne.next = new ListNode(value);
             newOne = newOne.next;
